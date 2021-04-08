@@ -1,2 +1,4 @@
 # FRHSD GPA Calculator
-The FRHSD parent portal has no option to calculate your gpa, this makes it easy by scraping the site for your grades and calculating your gpa.
+This site lets you calculate your GPA using the weighting found in the FRHSD student handbook.
+
+I plan on making a browser extension that scrapes the parent portal and calculates your GPA, getting the grades as data from the html table has been tough, and this should be released once I get the figured out.
