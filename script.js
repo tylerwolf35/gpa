@@ -59,8 +59,10 @@ function submit() {
     })
     .then((json) => {
       let data = json;
+      //sample grade object: {subject: "Calc  BC", grade: "bplus", level : "AP", credits: 5}
       let qualityPoints = 0;
       let creditsAttempted = 0;
+      //calculate GPA
       for (let i = 0; i < grades.length; i++) {
         creditsAttempted += grades[i].credits;
         let gradeValue = getGradeValue(grades[i].level, grades[i].grade);
