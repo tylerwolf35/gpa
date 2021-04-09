@@ -3,16 +3,16 @@ let subjectstr = `
         <input placeholder="Subject Title" class="subjectinput" />
         <input placeholder="Credits" class="subjectinput" />
         <select class="selector" name="grade" id="grade">
-          <option value="a+">A+</option>
+          <option value="aplus">A+</option>
           <option value="a">A</option>
-          <option value="a-">A-</option>
-          <option value="b+">B+</option>
+          <option value="aminus">A-</option>
+          <option value="bplus">B+</option>
           <option value="b">B</option>
-          <option value="b-">B-</option>
-          <option value="c+">C+</option>
+          <option value="bminus">B-</option>
+          <option value="cplus">C+</option>
           <option value="c">C</option>
-          <option value="c-">C-</option>
-          <option value="d+">D+</option>
+          <option value="cminus">C-</option>
+          <option value="dplus">D+</option>
           <option value="d">D</option>
           <option value="e">E</option>
         </select>
